@@ -1,0 +1,159 @@
+.body {
+    background: url("../images/whitediamond_@2X.png");
+    overflow: auto;
+}
+
+.page-header {
+    text-align: center;
+    background: white;
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+h1 {
+    font-family: 'Unica One', cursive;
+    font-size: 54px;
+    margin-top: 0;
+    color: rgb(74, 233, 233);
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.instructions {
+    font-size: 18px;
+    padding: 20px 20px 30px 20px;
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    background-color: white;
+    font-family: 'Electrolize', sans-serif;
+}
+
+
+.instructionshead {
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+    
+}
+
+.game {
+    border: 1px solid lightgray;
+    background-color: white;
+    margin: 30px 0 50px 0;
+    padding: 20px 0 20px 30px;
+}
+
+.blue {
+    height: 100px;
+    padding: 15px 0 0 25px;
+    text-align: center;
+}
+
+.green {
+    height: 100px;
+    padding: 15px 40px 0 0;
+    text-align: center;
+}
+
+.orange {
+    height: 100px;
+    padding: 15px 0 0 25px;
+    text-align: center;
+}
+
+.purple {
+    height: 100px;
+    padding: 15px 40px 0 0;
+    text-align: center;
+}
+
+#blue-crystal {
+    width: 85px;
+    height: 85px;
+}
+
+#green-crystal {
+    width: 85px;
+    height: 85px;
+}
+
+#orange-crystal {
+    width: 85px;
+    height: 85px;
+}
+
+#purple-crystal {
+    width: 85px;
+    height: 85px;
+}
+
+.random-box {
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 30px;
+
+}
+
+.user-box {
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px 0 0 30px;
+      
+}
+
+#random-number, #user-score, #user-wins, #user-losses {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(74, 233, 233);
+    font-family: 'Raleway Dots', cursive;
+    font-weight: bold;
+}
+
+#user-score {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(74, 233, 233);
+    font-family: 'Raleway Dots', cursive;
+    font-weight: bold;
+}
+
+.scoreboard-header {
+    padding-top: 10px;
+    height: 100px;
+    text-align: center;
+}
+
+.wins {
+    height: 100px;
+    text-align: center;
+    margin-left: 100px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 200px;
+}
+
+.losses {
+    height: 100px;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0 0 100px;
+}
+
+.wins-text, .loss-text {
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+    font-size: 22px;
+}

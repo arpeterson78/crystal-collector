@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>CrystalCollector Game</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet">
+    <link rel="stylesheet" type-"text/css" href="assets/css/style.css">
+
+</head>
+
+<body class="body">
+<!-- This is the header of the page -->
+    <header>
+        <div class="page-header">
+            <h1>CRYSTALCOLLECTOR <small>The Game</small></h1>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <article class="row">
+            <div class="col-md-10 col-md-offset-1">
+<!-- This is the instructions to the game -->
+                <section class="instructions">
+                    <h2 class="instructionshead">INSTRUCTIONS</h2>
+                <hr>
+                    <p>You will be given a random number at the start of the game.</p>
+                <br>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <br>
+                    <p>You win the game by matching your total score to random numbers, you lose the game if your total score goes above the random number.</p>
+                <br>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                <br>
+                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                </p>
+
+                </section>
+
+            </div>
+        </article>
+
+        <main class="row">
+            <div class="col-md-10 col-md-offset-1">
+<!-- This the the game section of the page -->
+                <section class="game">
+                    <div class="row">
+<!-- These are the image files for the crystals -->
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-6 blue">
+                                    <img src="assets/images/minerals-blue.jpg" id="blue-crystal" alt="Blue Crystal">
+                                </div>
+                                <div class="col-md-6 green">
+                                    <img src="assets/images/minerals-green.jpg" id="green-crystal" alt="Green Crystal">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 orange">
+                                    <img src="assets/images/minerals-orange.jpg" id="orange-crystal" alt="Orange Crystal">
+                                </div>
+                                <div class="col-md-6 purple">
+                                    <img src="assets/images/minerals-purple.jpg" id="purple-crystal" alt="Purple Crystal">
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-3">
+                            <div class="row">
+<!-- This section covers the random number generated at beginning of game -->
+                                <div class="col-md-12 random-box">
+                                    <p>
+                                        <h4>RANDOM NUMBER</h4>
+                                        <p id="random-number"></p>
+                                    </p>
+                                </div>
+                            </div>
+<!-- This section covers the users score -->
+                            <div class="row">
+                                <div class="col-md-12 user-box">
+                                    <p>
+                                        <h4>YOUR SCORE</h4>
+                                        <p id="user-score"></p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+<!-- This sections covers the total user wins -->
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-12 wins">
+                                    <p class="wins-text">Wins:</p>
+                                    <p id="user-wins"></p>
+                                </div>
+                            </div>
+<!-- This section covers the total user losses -->
+                            <div class="row">
+                                <div class="col-md-12 losses">
+                                    <p class="loss-text">Losses:</p>
+                                    <p id="user-losses"><p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+        
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js" async></script>
+</body>
+</html>
